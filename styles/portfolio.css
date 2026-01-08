@@ -42,7 +42,7 @@
     margin-top: 50px;
 }
 .container{
-    width: 71%;
+    /* width: 71%; */
     max-width: 1140px;
     margin: 0px auto;
 }
@@ -125,9 +125,6 @@ nav .menu a:hover{
     padding-top: 130px;
 }
 #about .about-container{
-    width: 71%;
-    max-width: 1140px;
-    margin: 0px auto;
     text-align: center;
     background-color: #FFF8F3;
     padding: 131px 157px;
@@ -146,13 +143,6 @@ nav .menu a:hover{
     font-weight: bold;
     color: #474747;
 
-}
-
-#skills .skills-container{
-    width: 71%;
-    max-width: 1140px;
-    margin: 0px auto;
-    /* border: 1px solid red; */
 }
 
 .skill-box{
@@ -226,9 +216,6 @@ footer{
     padding: 130px 0px;
 }
 footer .footer-container{
-    width: 71%;
-    max-width: 1140px;
-    margin: 0px auto;
     display: flex;
     gap: 117px;
 
