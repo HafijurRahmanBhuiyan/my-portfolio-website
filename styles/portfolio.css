@@ -240,7 +240,7 @@ footer .footer-container{
 }
 .footer-container form input[type="text"], .footer-container form textarea{
     width: 461px;
-    padding: 18px 349px 18px 30px;
+    padding: 18px 30px;
     border: none;
     margin-bottom: 24px;
     border-radius: 5px;
@@ -324,4 +324,43 @@ footer .footer-container {
     padding: 18px 30px;
     margin-bottom: 15px;
 }
+
+nav {
+    flex-direction: column;
+    gap: 20px;
+}
+nav .menu {
+    gap: 30px;
+    flex-wrap: wrap;
+}
+#banner {
+    margin: 20px 20px 0px 20px;
+    flex-direction: column;
+}
+
+#banner .banner-content h1 {
+    font-size: 40px;
+}
+#banner .banner-image img {
+    max-width: 100%;
+    vertical-align:bottom;
+}
+#banner .banner-content {
+    max-width: 100%;
+    text-align: center;
+}
+.btn-group{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+    background: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom left; /*it used for background image position */
+    /* background-size: 136px 774px, 1036px 518px;  it used for background image size */
+}  
+
 }
