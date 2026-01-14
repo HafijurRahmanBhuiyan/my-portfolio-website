@@ -247,3 +247,81 @@ footer .footer-container{
     color: #757575;
 
 }
+.hide{
+    display: none !important;
+}
+
+@media screen and (max-width: 576px) {
+    .section-heading h2 {
+        font-size: 25px;
+
+    }
+.section-heading p {
+    padding: 0px 10px;
+}
+    #about, #skills, #resume {
+        padding-top: 60px;
+    }
+
+.skill-box {
+    flex-direction: column;
+}
+.skill-box .skill-card{
+    max-width: 100%;
+    margin: 0px 20px;
+}
+#about .about-container {
+    padding: 20px 30px;
+}
+.container{
+    max-width: 100%;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-heading {
+    max-width: 100%;
+}
+#resume .resume-container {
+    max-width: 100%;
+    margin: 45px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.resume-container .section-title {
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.resume-card .card-title {
+    font-size: 22px;
+}
+.resume-card .card-info {
+    font-size: 17px;
+}
+.btn {
+    font-size: 16px;
+    padding: 15px 30px;
+}
+footer {
+    margin-top: 60px;
+    padding: 60px 10px;
+}
+footer .footer-container {
+    gap: 50px;
+    flex-direction: column;
+}
+.footer-container .social {
+    max-width: 100%;
+}
+.footer-container form input[type="text"], .footer-container form textarea {
+    width: 100%;
+    padding: 18px 30px;
+    margin-bottom: 15px;
+}
+}
